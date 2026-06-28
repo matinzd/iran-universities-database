@@ -332,6 +332,16 @@
       "website": "https://iums.ac.ir"
     },
     {
+      "name": "Iranian Institute of Innovation and Technology",
+      "name_fa": "موسسه نوآوری و فناوری ایرانیان",
+      "domains": [
+        "iiit-iran.ac.ir"
+      ],
+      "type": "private",
+      "city": "Tehran",
+      "website": "https://iiit-iran.ac.ir"
+    },
+    {
       "name": "Isfahan University",
       "name_fa": "دانشگاه اصفهان",
       "domains": [
