@@ -1,0 +1,84 @@
+name: Add a university
+description: Request to add a new Iranian university domain to the database
+title: "Add: [University Name]"
+labels: ["new university"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: University name (English)
+      placeholder: e.g. University of Tehran
+    validations:
+      required: true
+
+  - type: input
+    id: name_fa
+    attributes:
+      label: University name (Persian)
+      placeholder: e.g. دانشگاه تهران
+    validations:
+      required: true
+
+  - type: input
+    id: domain
+    attributes:
+      label: Email domain
+      description: The domain used in student/staff email addresses. Must end in .ac.ir or .ir
+      placeholder: e.g. ut.ac.ir
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Official website
+      placeholder: e.g. https://ut.ac.ir
+    validations:
+      required: true
+
+  - type: input
+    id: city
+    attributes:
+      label: City
+      placeholder: e.g. Tehran
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: University type
+      options:
+        - public
+        - private
+        - islamic-azad
+        - medical
+        - distance
+        - applied-science
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: >
+        Provide at least one of the following to confirm the domain is legitimate:
+        a link to an official page showing the email domain, a screenshot of an
+        institutional email address, or a link to the university's official contact
+        or webmail page. This helps us verify the domain before adding it.
+      placeholder: e.g. https://ut.ac.ir/en/contact — lists @ut.ac.ir as the staff email domain
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked that this domain is not already in the database
+          required: true
+        - label: The domain resolves and has a working website or webmail
+          required: true
+        - label: This is an Iranian university or higher education institution
+          required: true

@@ -12,14 +12,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.14"
 
-      - name: Install jsonschema
-        run: pip install jsonschema
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Validate JSON schema
         run: |
@@ -37,5 +39,24 @@ jobs:
               sys.exit(1)
           EOF
 
-      - name: Check for duplicate domains
-        run: python3 scripts/generate.py --dry-run
+      - name: Check for duplicates
+        run: python3 scripts/check_duplicates.py
+
+      - name: Verify new domains have valid DNS records
+        run: |
+          # Find domains added in this PR by diffing against the base branch
+          git diff origin/${{ github.base_ref }}...HEAD -- universities.json \
+            | grep '^+' \
+            | grep -oP '"[a-z0-9.-]+\.(ac\.ir|ir)"' \
+            | tr -d '"' \
+            | sort -u > /tmp/new_domains.txt
+
+          if [ ! -s /tmp/new_domains.txt ]; then
+            echo "No new domains to verify."
+            exit 0
+          fi
+
+          echo "New domains to verify:"
+          cat /tmp/new_domains.txt
+
+          python3 scripts/verify_domains.py --changed-only $(cat /tmp/new_domains.txt | tr '\n' ' ')
