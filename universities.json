@@ -1073,6 +1073,16 @@
       "website": "https://sbmu.ac.ir"
     },
     {
+      "name": "Shahid Beheshti University",
+      "name_fa": "دانشگاه شهید بهشتی",
+      "domains": [
+        "sbu.ac.ir"
+      ],
+      "type": "public",
+      "city": "Tehran",
+      "website": "https://sbu.ac.ir"
+    },
+    {
       "name": "Shahid Bahonar University of Kerman",
       "name_fa": "دانشگاه شهید باهنر کرمان",
       "domains": [
