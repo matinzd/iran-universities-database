@@ -1,0 +1,1446 @@
+{
+  "$schema": "./schema.json",
+  "universities": [
+    {
+      "name": "Adiban Higher Education Institue",
+      "name_fa": "",
+      "domains": [
+        "adiban.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Ahwaz Jondishapour University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "ajums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Allameh Tabatabaie University",
+      "name_fa": "",
+      "domains": [
+        "atu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Amirkabir College of Managmant &amp; Technology",
+      "name_fa": "",
+      "domains": [
+        "acmt.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Amirkabir University of Technology",
+      "name_fa": "",
+      "domains": [
+        "aut.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Arak University",
+      "name_fa": "",
+      "domains": [
+        "araku.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Arak University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "arakmu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Ardabil University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "arums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Art University",
+      "name_fa": "",
+      "domains": [
+        "art.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Azad University of Shabestar",
+      "name_fa": "",
+      "domains": [
+        "iaushab.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Babol Noshirvani University of Technology",
+      "name_fa": "",
+      "domains": [
+        "nit.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Babol University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "mubabol.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Baghyatoolah Medical Sciences University",
+      "name_fa": "",
+      "domains": [
+        "bmsu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Birjand University",
+      "name_fa": "",
+      "domains": [
+        "birjand.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Birjand University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "bums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Bu Ali Sina University",
+      "name_fa": "",
+      "domains": [
+        "basu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Bushehr University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "bpums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Fasa Faculty of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "fums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Fasa University",
+      "name_fa": "",
+      "domains": [
+        "fasau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Ferdowsi University of Mashhad",
+      "name_fa": "",
+      "domains": [
+        "um.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Golestan University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "goums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Gonabad University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "gmu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Gorgan University of Agricultural Sciences and Natural Resources",
+      "name_fa": "",
+      "domains": [
+        "gau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Guilan University",
+      "name_fa": "",
+      "domains": [
+        "guilan.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Guilan University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "gums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Hamadan University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "umsha.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Hormozgan University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "hums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Ilam University",
+      "name_fa": "",
+      "domains": [
+        "ilam.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Ilam University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "hbi.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Imam Khomeini International University",
+      "name_fa": "",
+      "domains": [
+        "ikiu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Imam Reza University",
+      "name_fa": "",
+      "domains": [
+        "imamreza.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Imam Sadiq University",
+      "name_fa": "",
+      "domains": [
+        "isu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Iran University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "iums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Isfahan University",
+      "name_fa": "",
+      "domains": [
+        "ui.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Isfahan University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "mui.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Isfahan University of Technology",
+      "name_fa": "",
+      "domains": [
+        "iut.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University",
+      "name_fa": "دانشگاه آزاد اسلامی",
+      "domains": [
+        "iau.ir",
+        "iau.ac.ir"
+      ],
+      "type": "islamic-azad",
+      "city": "Tehran",
+      "website": "https://iau.ir"
+    },
+    {
+      "name": "Islamic Azad University, Ahar",
+      "name_fa": "",
+      "domains": [
+        "iau-ahar.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Aliabad",
+      "name_fa": "",
+      "domains": [
+        "aliabadiau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Arak",
+      "name_fa": "",
+      "domains": [
+        "iau-arak.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Ardabil",
+      "name_fa": "",
+      "domains": [
+        "iauardabil.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Bandar Abbas",
+      "name_fa": "",
+      "domains": [
+        "iauba.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Bojnourd",
+      "name_fa": "",
+      "domains": [
+        "bojnourdiau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Bostanabad",
+      "name_fa": "",
+      "domains": [
+        "iaubos.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Boukan",
+      "name_fa": "",
+      "domains": [
+        "iau-boukan.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Central Tehran Branch",
+      "name_fa": "",
+      "domains": [
+        "iauctb.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Garmsar",
+      "name_fa": "",
+      "domains": [
+        "iau-garmsar.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Hamedan",
+      "name_fa": "",
+      "domains": [
+        "iauh.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Karaj",
+      "name_fa": "",
+      "domains": [
+        "kiau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Kazeron",
+      "name_fa": "",
+      "domains": [
+        "kau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Kerman",
+      "name_fa": "",
+      "domains": [
+        "iauk.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Khorasgan",
+      "name_fa": "",
+      "domains": [
+        "khuisf.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Majlesi",
+      "name_fa": "",
+      "domains": [
+        "iaumajlesi.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Mashhad",
+      "name_fa": "",
+      "domains": [
+        "mshdiau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Mobarakeh",
+      "name_fa": "",
+      "domains": [
+        "mau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Najaf Abad",
+      "name_fa": "",
+      "domains": [
+        "iaun.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, North Tehran",
+      "name_fa": "",
+      "domains": [
+        "iau-tnb.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Parand",
+      "name_fa": "",
+      "domains": [
+        "piau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Quchan",
+      "name_fa": "",
+      "domains": [
+        "iauq.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Sanandaj",
+      "name_fa": "",
+      "domains": [
+        "iausdj.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Saveh",
+      "name_fa": "",
+      "domains": [
+        "iau-saveh.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Semnan",
+      "name_fa": "",
+      "domains": [
+        "semnaniau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Shahr-e-rey Branch",
+      "name_fa": "",
+      "domains": [
+        "iausr.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Shahrood",
+      "name_fa": "",
+      "domains": [
+        "iau-shahrood.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Shahryar",
+      "name_fa": "",
+      "domains": [
+        "shahryariau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Shiraz",
+      "name_fa": "",
+      "domains": [
+        "iaushiraz.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Shirvan",
+      "name_fa": "",
+      "domains": [
+        "iau-shirvan.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Tabriz",
+      "name_fa": "",
+      "domains": [
+        "iaut.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Tafresh",
+      "name_fa": "",
+      "domains": [
+        "iautb.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Tehran Medical",
+      "name_fa": "",
+      "domains": [
+        "iautmu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Tehran Science &amp; Research Branch",
+      "name_fa": "",
+      "domains": [
+        "srbiau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Tehran South",
+      "name_fa": "",
+      "domains": [
+        "azad.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Varamin",
+      "name_fa": "",
+      "domains": [
+        "iauvaramin.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Islamic Azad University, Yazd",
+      "name_fa": "",
+      "domains": [
+        "iauyazd.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Jahrom University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "jums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Jami Institute of Technology",
+      "name_fa": "",
+      "domains": [
+        "jami.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "K.N.Toosi University of Technology",
+      "name_fa": "",
+      "domains": [
+        "kntu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Kashan University",
+      "name_fa": "",
+      "domains": [
+        "kashanu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Kerman University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "kmu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Kermanshah University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "kums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Kharazmi University of Tehran",
+      "name_fa": "",
+      "domains": [
+        "khu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Kurdistan University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "muk.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Lorestan University",
+      "name_fa": "",
+      "domains": [
+        "lu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Lorestan University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "lums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Malayer University",
+      "name_fa": "",
+      "domains": [
+        "malayeru.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Mamasani University of Technology",
+      "name_fa": "",
+      "domains": [
+        "mamasaniiau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Mashhad University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "mums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Mazandaran University of Iran",
+      "name_fa": "",
+      "domains": [
+        "umz.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Mazandaran University of Science &amp; Technology",
+      "name_fa": "",
+      "domains": [
+        "ustmb.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Mechatronics Research Laboratory, Islamic Azad University, Qazvin",
+      "name_fa": "",
+      "domains": [
+        "mrl-spl.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Mofid University",
+      "name_fa": "",
+      "domains": [
+        "mofidu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Mustafa International University",
+      "name_fa": "",
+      "domains": [
+        "miu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Payame Noor University",
+      "name_fa": "",
+      "domains": [
+        "pnu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Persian Gulf University",
+      "name_fa": "",
+      "domains": [
+        "pgu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Petroleum University of Technology",
+      "name_fa": "",
+      "domains": [
+        "put.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Qazvin University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "qums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Qom University",
+      "name_fa": "",
+      "domains": [
+        "qom.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Rafsanjan University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "rums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Razi University",
+      "name_fa": "",
+      "domains": [
+        "razi.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Sabzevar School of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "medsab.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Sadjad Institute of Technology",
+      "name_fa": "",
+      "domains": [
+        "sadjad.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Sadra University",
+      "name_fa": "",
+      "domains": [
+        "sadra.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Sahand University of Technology",
+      "name_fa": "",
+      "domains": [
+        "sut.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Semnan University",
+      "name_fa": "",
+      "domains": [
+        "semnan.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shahed University",
+      "name_fa": "",
+      "domains": [
+        "shahed.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shaheed Beheshti University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "sbmu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shahid Bahonar University of Kerman",
+      "name_fa": "",
+      "domains": [
+        "uk.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shahrekord University",
+      "name_fa": "",
+      "domains": [
+        "sku.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shahrekord University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "skums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shahrood University of Technology",
+      "name_fa": "",
+      "domains": [
+        "shahroodut.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Sharif University of Technology, Kish Campus",
+      "name_fa": "",
+      "domains": [
+        "kish.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Sheikhbahaee University",
+      "name_fa": "",
+      "domains": [
+        "shbu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shiraz Payamnoor University",
+      "name_fa": "",
+      "domains": [
+        "spnu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shiraz University",
+      "name_fa": "",
+      "domains": [
+        "shirazu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shiraz University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "sums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shiraz University of Technology",
+      "name_fa": "",
+      "domains": [
+        "sutech.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Shomal University",
+      "name_fa": "",
+      "domains": [
+        "shomal.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Sistan &amp; Balouchestan University",
+      "name_fa": "",
+      "domains": [
+        "usb.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Tabriz College of Technology",
+      "name_fa": "",
+      "domains": [
+        "tct.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Tabriz Islamic Art University",
+      "name_fa": "",
+      "domains": [
+        "tabriziau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Tabriz University",
+      "name_fa": "",
+      "domains": [
+        "tabrizu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Tabriz University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "tbzmed.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Takestan Islamic Azad University",
+      "name_fa": "",
+      "domains": [
+        "tiau.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Tarbiat Modares University",
+      "name_fa": "",
+      "domains": [
+        "modares.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Tehran University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "tums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "University of Applied Science and Technology",
+      "name_fa": "",
+      "domains": [
+        "uast.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "University of Hormozgan",
+      "name_fa": "",
+      "domains": [
+        "hormozgan.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "University of Kurdistan",
+      "name_fa": "",
+      "domains": [
+        "uok.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "University of Mashhad Pnu",
+      "name_fa": "",
+      "domains": [
+        "pnum.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "University of Mohaghegh",
+      "name_fa": "",
+      "domains": [
+        "uma.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "University of Science and Culture",
+      "name_fa": "",
+      "domains": [
+        "usc.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "University of Social Welfare and Rehabilitation Scinences",
+      "name_fa": "",
+      "domains": [
+        "uswr.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "University of Tehran",
+      "name_fa": "",
+      "domains": [
+        "ut.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Urmia University",
+      "name_fa": "",
+      "domains": [
+        "urmia.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Urmia University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "umsu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Urmia University of Technology",
+      "name_fa": "",
+      "domains": [
+        "uut.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Vali-e-Asr University",
+      "name_fa": "",
+      "domains": [
+        "vru.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Yasuj University",
+      "name_fa": "",
+      "domains": [
+        "yu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Yasuj University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "yums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Yazd Medical University",
+      "name_fa": "",
+      "domains": [
+        "ssu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Zabol University",
+      "name_fa": "",
+      "domains": [
+        "uoz.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Zanjan Institute for Advanced Studies in Basic Sciences",
+      "name_fa": "",
+      "domains": [
+        "iasbs.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Zanjan University",
+      "name_fa": "",
+      "domains": [
+        "znu.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    },
+    {
+      "name": "Zanjan University of Medical Sciences",
+      "name_fa": "",
+      "domains": [
+        "zums.ac.ir"
+      ],
+      "type": "",
+      "city": "",
+      "website": ""
+    }
+  ]
+}

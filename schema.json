@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Iran Universities Database",
+  "type": "object",
+  "required": ["universities"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "universities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/university"
+      }
+    }
+  },
+  "definitions": {
+    "university": {
+      "type": "object",
+      "required": ["name", "domains"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Official English name of the university"
+        },
+        "name_fa": {
+          "type": "string",
+          "description": "Official Persian name of the university"
+        },
+        "domains": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9.-]+\\.(ac\\.ir|ir)$",
+            "description": "Email domain, must end in .ac.ir or .ir"
+          },
+          "description": "List of email domains used by this university"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["public", "private", "islamic-azad", "medical", "distance", "applied-science", ""],
+          "description": "Institution type"
+        },
+        "city": {
+          "type": "string",
+          "description": "City of the main campus"
+        },
+        "website": {
+          "type": "string",
+          "description": "Official website URL"
+        }
+      }
+    }
+  }
+}

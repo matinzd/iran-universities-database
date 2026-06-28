@@ -1,0 +1,41 @@
+name: Validate
+
+on:
+  pull_request:
+    paths:
+      - "universities.json"
+      - "schema.json"
+      - "scripts/generate.py"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install jsonschema
+        run: pip install jsonschema
+
+      - name: Validate JSON schema
+        run: |
+          python3 - <<'EOF'
+          import json, jsonschema, sys
+          with open("schema.json") as f:
+              schema = json.load(f)
+          with open("universities.json") as f:
+              data = json.load(f)
+          try:
+              jsonschema.validate(data, schema)
+              print(f"Schema valid: {len(data['universities'])} universities")
+          except jsonschema.ValidationError as e:
+              print(f"Validation error: {e.message}", file=sys.stderr)
+              sys.exit(1)
+          EOF
+
+      - name: Check for duplicate domains
+        run: python3 scripts/generate.py --dry-run
