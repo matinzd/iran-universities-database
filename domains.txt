@@ -59,6 +59,7 @@ ilam.ac.ir
 imamreza.ac.ir
 isu.ac.ir
 iums.ac.ir
+iust.ac.ir
 iut.ac.ir
 jami.ac.ir
 jums.ac.ir
@@ -104,6 +105,7 @@ semnaniau.ac.ir
 shahed.ac.ir
 shahroodut.ac.ir
 shahryariau.ac.ir
+sharif.ac.ir
 shbu.ac.ir
 shirazu.ac.ir
 shomal.ac.ir
