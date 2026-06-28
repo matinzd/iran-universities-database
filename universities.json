@@ -22,6 +22,16 @@
       "website": "https://ajums.ac.ir"
     },
     {
+      "name": "Al-Zahra University",
+      "name_fa": "دانشگاه الزهرا",
+      "domains": [
+        "alzahra.ac.ir"
+      ],
+      "type": "public",
+      "city": "Tehran",
+      "website": "https://alzahra.ac.ir"
+    },
+    {
       "name": "Allameh Tabatabaie University",
       "name_fa": "دانشگاه علامه طباطبائی",
       "domains": [
