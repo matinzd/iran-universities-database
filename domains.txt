@@ -76,6 +76,7 @@ malayeru.ac.ir
 mamasaniiau.ac.ir
 mau.ac.ir
 medsab.ac.ir
+mit.edu
 miu.ac.ir
 modares.ac.ir
 mofidu.ac.ir
@@ -111,6 +112,7 @@ sku.ac.ir
 skums.ac.ir
 srbiau.ac.ir
 ssu.ac.ir
+stanford.edu
 sums.ac.ir
 sut.ac.ir
 sutech.ac.ir
