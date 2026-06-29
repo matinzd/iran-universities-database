@@ -1,5 +1,5 @@
 name: Add a university
-description: Request to add a new Iranian university domain to the database
+description: Request to add a university to the database
 title: "Add: [University Name]"
 labels: ["new university"]
 body:
@@ -12,18 +12,28 @@ body:
       required: true
 
   - type: input
-    id: name_fa
+    id: country
     attributes:
-      label: University name (Persian)
-      placeholder: e.g. دانشگاه تهران
+      label: Country code
+      description: ISO 3166-1 alpha-2 country code (two uppercase letters)
+      placeholder: e.g. IR, US, GB, AU, DE
     validations:
       required: true
+
+  - type: input
+    id: name_local
+    attributes:
+      label: University name (local language)
+      description: Official name in the local language of the country, if different from English
+      placeholder: e.g. دانشگاه تهران (Persian) or Universität München (German)
+    validations:
+      required: false
 
   - type: input
     id: domain
     attributes:
       label: Email domain
-      description: The domain used in student/staff email addresses. Must end in .ac.ir or .ir
+      description: The domain used in student/staff email addresses (e.g. ut.ac.ir, mit.edu, ox.ac.uk)
       placeholder: e.g. ut.ac.ir
     validations:
       required: true
@@ -80,5 +90,5 @@ body:
           required: true
         - label: The domain resolves and has a working website or webmail
           required: true
-        - label: This is an Iranian university or higher education institution
+        - label: This is a legitimate higher education institution recognized in its country
           required: true

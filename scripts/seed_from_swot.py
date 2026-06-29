@@ -43,7 +43,8 @@ def main():
         name = content.split("\n")[0] if content else ""
         universities.append({
             "name": name,
-            "name_fa": "",
+            "name_local": "",
+            "country": "IR",
             "domains": [domain],
             "type": "",
             "city": "",
@@ -64,7 +65,8 @@ def main():
             name = content.split("\n")[0] if content else ""
             universities.append({
                 "name": name,
-                "name_fa": "",
+                "name_local": "",
+            "country": "IR",
                 "domains": [domain],
                 "type": "",
                 "city": "",

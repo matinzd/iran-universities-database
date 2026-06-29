@@ -1,10 +1,10 @@
-# Iran Universities Database
+# Universities Database
 
-A community-maintained database of Iranian university email domains that any app can use to verify academic email addresses from Iranian institutions.
+A community-maintained database of university email domains that any app can use to verify academic email addresses from institutions around the world.
 
 ## Background
 
-[JetBrains' swot repository](https://github.com/JetBrains/swot), used by tools like [Zed](https://zed.dev) to validate student and educator email addresses, has stopped accepting new Iranian university domains. JetBrains cites sanctions and export control compliance as the reason. This means Iranian students are being excluded from academic verification features on any platform that depends on swot.
+This project started as a response to [JetBrains' swot repository](https://github.com/JetBrains/swot) stopping acceptance of new Iranian university domains, citing sanctions and export control compliance. This excluded Iranian students from academic verification features on any platform that depends on swot.
 
 ### A note on sanctions
 
@@ -12,13 +12,15 @@ JetBrains' position may not be legally required. OFAC's General License D-2, now
 
 Providing academic email verification for Iranian students appears to fall within this authorization. This was raised with JetBrains in [a comment on the relevant pull request](https://github.com/JetBrains/swot/pull/40330#issuecomment-4822220928), but the request was still rejected.
 
-This repository exists so that Iranian students have the same access to academic verification as students anywhere else in the world.
+This repository started so that Iranian students have the same access to academic verification as students anywhere else in the world — and has since grown into a general-purpose global universities database open to contributions from any country.
 
 ## Data
 
-- **144 universities**, **145 email domains** (seeded from swot, extended with missing entries)
+- **148 universities**, **149 email domains** (seeded from swot with Iranian universities, now expanding globally)
 - Source of truth: [`universities.json`](./universities.json)
 - Derived formats regenerated automatically by CI on every merge
+
+> **v2 breaking change:** `name_fa` has been renamed to `name_local`, and `country` (ISO 3166-1 alpha-2) is now a required field. Update your key lookups accordingly.
 
 ## How to Integrate
 
@@ -29,7 +31,8 @@ Fetch [`universities.json`](./universities.json) directly from the GitHub raw UR
 ```json
 {
   "name": "University of Tehran",
-  "name_fa": "دانشگاه تهران",
+  "name_local": "دانشگاه تهران",
+  "country": "IR",
   "domains": ["ut.ac.ir"],
   "type": "public",
   "city": "Tehran",
@@ -37,7 +40,7 @@ Fetch [`universities.json`](./universities.json) directly from the GitHub raw UR
 }
 ```
 
-To check if an email is from an Iranian university:
+To check if an email is from a university in the database:
 
 ```python
 import json, urllib.request
@@ -46,14 +49,14 @@ url = "https://raw.githubusercontent.com/matinzd/iran-universities-database/main
 data = json.loads(urllib.request.urlopen(url).read())
 all_domains = {d for u in data["universities"] for d in u["domains"]}
 
-def is_iranian_university_email(email):
+def is_university_email(email):
     domain = email.split("@")[-1].lower()
     return domain in all_domains
 ```
 
 ### Option 2: Swot-compatible drop-in
 
-The `domains/` directory mirrors swot's exact file structure. Apps already consuming swot can point at this repo instead with no code changes.
+The `domains/` directory mirrors swot's exact file structure. Apps already consuming swot can point at this repo instead with no code changes. Global entries appear under their respective country TLD directories.
 
 ```
 domains/
@@ -63,6 +66,11 @@ domains/
       sharif.txt    → "Sharif University of Technology"
       ...
     iau.txt         → "Islamic Azad University"
+  edu/
+    mit.txt         → "Massachusetts Institute of Technology"
+  uk/
+    ac/
+      ox.txt        → "University of Oxford"
 ```
 
 ### Option 3: Flat domain list
@@ -71,13 +79,15 @@ domains/
 
 ## University Types
 
+These types originated from the Iranian university system and remain valid for global entries where applicable. New types can be proposed via PR.
+
 | Value             | Description                                      |
 | ----------------- | ------------------------------------------------ |
 | `public`          | Government-funded public university              |
 | `private`         | Private non-governmental university              |
 | `islamic-azad`    | Islamic Azad University (branch)                 |
 | `medical`         | University of Medical Sciences                   |
-| `distance`        | Distance learning institution (e.g. Payame Noor) |
+| `distance`        | Distance learning institution                    |
 | `applied-science` | University of Applied Science and Technology     |
 
 ## Contributing
@@ -89,18 +99,20 @@ To add a missing university or correct existing data, edit [`universities.json`]
 ```json
 {
   "name": "Example University",
-  "name_fa": "دانشگاه نمونه",
-  "domains": ["example.ac.ir"],
+  "name_local": "Université Exemple",
+  "country": "FR",
+  "domains": ["example.edu"],
   "type": "public",
-  "city": "Tehran",
-  "website": "https://example.ac.ir"
+  "city": "Paris",
+  "website": "https://example.edu"
 }
 ```
 
 **Rules:**
 
-- `name` and `domains` are required; all other fields are optional but encouraged
-- Domains must end in `.ac.ir` or `.ir`
+- `name`, `country`, and `domains` are required; all other fields are optional but encouraged
+- `country` must be an ISO 3166-1 alpha-2 code (e.g. `IR`, `US`, `GB`)
+- Domains must be valid lowercase email domains (e.g. `.ac.ir`, `.edu`, `.ac.uk`)
 - Each domain can only appear once across the entire database
 - Add the entry in alphabetical order by `name`
 
