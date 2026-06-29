@@ -1,0 +1,25 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "Massachusetts Institute of Technology",
+      "country": "US",
+      "domains": [
+        "mit.edu"
+      ],
+      "type": "private",
+      "city": "Cambridge",
+      "website": "https://web.mit.edu"
+    },
+    {
+      "name": "Stanford University",
+      "country": "US",
+      "domains": [
+        "stanford.edu"
+      ],
+      "type": "private",
+      "city": "Stanford",
+      "website": "https://www.stanford.edu"
+    }
+  ]
+}
