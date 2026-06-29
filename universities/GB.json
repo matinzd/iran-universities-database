@@ -1,0 +1,65 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "University of Oxford",
+      "country": "GB",
+      "domains": [
+        "ox.ac.uk"
+      ],
+      "type": "public",
+      "city": "Oxford",
+      "website": "https://www.ox.ac.uk"
+    },
+    {
+      "name": "University of Cambridge",
+      "country": "GB",
+      "domains": [
+        "cam.ac.uk"
+      ],
+      "type": "public",
+      "city": "Cambridge",
+      "website": "https://www.cam.ac.uk"
+    },
+    {
+      "name": "Imperial College London",
+      "country": "GB",
+      "domains": [
+        "ic.ac.uk"
+      ],
+      "type": "public",
+      "city": "London",
+      "website": "https://www.imperial.ac.uk"
+    },
+    {
+      "name": "University College London",
+      "country": "GB",
+      "domains": [
+        "ucl.ac.uk"
+      ],
+      "type": "public",
+      "city": "London",
+      "website": "https://www.ucl.ac.uk"
+    },
+    {
+      "name": "University of Edinburgh",
+      "country": "GB",
+      "domains": [
+        "ed.ac.uk"
+      ],
+      "type": "public",
+      "city": "Edinburgh",
+      "website": "https://www.ed.ac.uk"
+    },
+    {
+      "name": "University of Manchester",
+      "country": "GB",
+      "domains": [
+        "manchester.ac.uk"
+      ],
+      "type": "public",
+      "city": "Manchester",
+      "website": "https://www.manchester.ac.uk"
+    }
+  ]
+}

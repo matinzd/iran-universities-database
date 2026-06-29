@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "National University of Singapore",
+      "country": "SG",
+      "domains": [
+        "nus.edu.sg"
+      ],
+      "type": "public",
+      "city": "Singapore",
+      "website": "https://www.nus.edu.sg"
+    },
+    {
+      "name": "Nanyang Technological University",
+      "country": "SG",
+      "domains": [
+        "ntu.edu.sg"
+      ],
+      "type": "public",
+      "city": "Singapore",
+      "website": "https://www.ntu.edu.sg"
+    },
+    {
+      "name": "Singapore Management University",
+      "country": "SG",
+      "domains": [
+        "smu.edu.sg"
+      ],
+      "type": "public",
+      "city": "Singapore",
+      "website": "https://www.smu.edu.sg"
+    }
+  ]
+}

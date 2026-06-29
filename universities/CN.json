@@ -1,0 +1,60 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "Peking University",
+      "name_local": "北京大学",
+      "country": "CN",
+      "domains": [
+        "pku.edu.cn"
+      ],
+      "type": "public",
+      "city": "Beijing",
+      "website": "https://www.pku.edu.cn"
+    },
+    {
+      "name": "Tsinghua University",
+      "name_local": "清华大学",
+      "country": "CN",
+      "domains": [
+        "tsinghua.edu.cn"
+      ],
+      "type": "public",
+      "city": "Beijing",
+      "website": "https://www.tsinghua.edu.cn"
+    },
+    {
+      "name": "Fudan University",
+      "name_local": "复旦大学",
+      "country": "CN",
+      "domains": [
+        "fudan.edu.cn"
+      ],
+      "type": "public",
+      "city": "Shanghai",
+      "website": "https://www.fudan.edu.cn"
+    },
+    {
+      "name": "Shanghai Jiao Tong University",
+      "name_local": "上海交通大学",
+      "country": "CN",
+      "domains": [
+        "sjtu.edu.cn"
+      ],
+      "type": "public",
+      "city": "Shanghai",
+      "website": "https://www.sjtu.edu.cn"
+    },
+    {
+      "name": "Zhejiang University",
+      "name_local": "浙江大学",
+      "country": "CN",
+      "domains": [
+        "zju.edu.cn"
+      ],
+      "type": "public",
+      "city": "Hangzhou",
+      "website": "https://www.zju.edu.cn"
+    }
+  ]
+}

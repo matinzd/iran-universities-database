@@ -1,0 +1,49 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "Delft University of Technology",
+      "name_local": "Technische Universiteit Delft",
+      "country": "NL",
+      "domains": [
+        "tudelft.nl"
+      ],
+      "type": "public",
+      "city": "Delft",
+      "website": "https://www.tudelft.nl"
+    },
+    {
+      "name": "University of Amsterdam",
+      "name_local": "Universiteit van Amsterdam",
+      "country": "NL",
+      "domains": [
+        "uva.nl"
+      ],
+      "type": "public",
+      "city": "Amsterdam",
+      "website": "https://www.uva.nl"
+    },
+    {
+      "name": "Leiden University",
+      "name_local": "Universiteit Leiden",
+      "country": "NL",
+      "domains": [
+        "leidenuniv.nl"
+      ],
+      "type": "public",
+      "city": "Leiden",
+      "website": "https://www.universiteitleiden.nl"
+    },
+    {
+      "name": "Utrecht University",
+      "name_local": "Universiteit Utrecht",
+      "country": "NL",
+      "domains": [
+        "uu.nl"
+      ],
+      "type": "public",
+      "city": "Utrecht",
+      "website": "https://www.uu.nl"
+    }
+  ]
+}

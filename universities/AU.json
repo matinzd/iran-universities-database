@@ -1,0 +1,55 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "University of Melbourne",
+      "country": "AU",
+      "domains": [
+        "unimelb.edu.au"
+      ],
+      "type": "public",
+      "city": "Melbourne",
+      "website": "https://www.unimelb.edu.au"
+    },
+    {
+      "name": "Australian National University",
+      "country": "AU",
+      "domains": [
+        "anu.edu.au"
+      ],
+      "type": "public",
+      "city": "Canberra",
+      "website": "https://www.anu.edu.au"
+    },
+    {
+      "name": "University of Sydney",
+      "country": "AU",
+      "domains": [
+        "sydney.edu.au"
+      ],
+      "type": "public",
+      "city": "Sydney",
+      "website": "https://www.sydney.edu.au"
+    },
+    {
+      "name": "University of Queensland",
+      "country": "AU",
+      "domains": [
+        "uq.edu.au"
+      ],
+      "type": "public",
+      "city": "Brisbane",
+      "website": "https://www.uq.edu.au"
+    },
+    {
+      "name": "University of New South Wales",
+      "country": "AU",
+      "domains": [
+        "unsw.edu.au"
+      ],
+      "type": "public",
+      "city": "Sydney",
+      "website": "https://www.unsw.edu.au"
+    }
+  ]
+}

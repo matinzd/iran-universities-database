@@ -1,0 +1,49 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "University of São Paulo",
+      "name_local": "Universidade de São Paulo",
+      "country": "BR",
+      "domains": [
+        "usp.br"
+      ],
+      "type": "public",
+      "city": "São Paulo",
+      "website": "https://www.usp.br"
+    },
+    {
+      "name": "University of Campinas",
+      "name_local": "Universidade Estadual de Campinas",
+      "country": "BR",
+      "domains": [
+        "unicamp.br"
+      ],
+      "type": "public",
+      "city": "Campinas",
+      "website": "https://www.unicamp.br"
+    },
+    {
+      "name": "Federal University of Rio de Janeiro",
+      "name_local": "Universidade Federal do Rio de Janeiro",
+      "country": "BR",
+      "domains": [
+        "ufrj.br"
+      ],
+      "type": "public",
+      "city": "Rio de Janeiro",
+      "website": "https://ufrj.br"
+    },
+    {
+      "name": "Federal University of Minas Gerais",
+      "name_local": "Universidade Federal de Minas Gerais",
+      "country": "BR",
+      "domains": [
+        "ufmg.br"
+      ],
+      "type": "public",
+      "city": "Belo Horizonte",
+      "website": "https://www.ufmg.br"
+    }
+  ]
+}
