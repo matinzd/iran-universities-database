@@ -54,8 +54,12 @@ def main():
     failures = []
     warnings = []
 
-    for domain in sorted(domains_to_check):
+    sorted_domains = sorted(domains_to_check)
+    total = len(sorted_domains)
+
+    for i, domain in enumerate(sorted_domains, 1):
         uni_name = domain_to_uni.get(domain, domain)
+        print(f"[{i}/{total}] Checking {domain} ...", flush=True)
         has_mx, has_a = check_domain(domain)
 
         if has_mx:
