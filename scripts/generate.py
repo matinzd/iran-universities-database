@@ -35,7 +35,6 @@ def main():
     parser.add_argument("--universities-dir", default="universities", help="Directory containing per-country JSON files")
     parser.add_argument("--domains-dir", default="domains", help="Output directory for domain tree")
     parser.add_argument("--domains-txt", default="domains.txt", help="Output flat domain list")
-    parser.add_argument("--aggregate-out", default="universities.json", help="Output aggregate JSON file")
     args = parser.parse_args()
 
     country_files = sorted(glob.glob(os.path.join(args.universities_dir, "*.json")))
@@ -93,15 +92,8 @@ def main():
     with open(args.domains_txt, "w", encoding="utf-8") as f:
         f.write("\n".join(all_domains) + "\n")
 
-    # Write aggregate
-    aggregate = {"universities": all_universities}
-    with open(args.aggregate_out, "w", encoding="utf-8") as f:
-        json.dump(aggregate, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-
     print(f"Generated {len(files_to_write)} domain files and {args.domains_txt}")
     print(f"Total: {len(all_universities)} universities, {len(all_domains)} domains")
-    print(f"Aggregate written to {args.aggregate_out}")
 
 
 if __name__ == "__main__":

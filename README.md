@@ -18,7 +18,6 @@ This repository started so that Iranian students have the same access to academi
 
 - **148 universities**, **149 email domains** (seeded from swot with Iranian universities, now expanding globally)
 - Source of truth: [`universities/`](./universities/) — one JSON file per country (e.g. `universities/IR.json`)
-- Generated aggregate: [`universities.json`](./universities.json) — all entries combined, for consumers who want a single file
 - Derived formats regenerated automatically by CI on every merge
 
 > **v2 breaking change:** `name_fa` has been renamed to `name_local`, and `country` (ISO 3166-1 alpha-2) is now a required field. Update your key lookups accordingly.
@@ -27,7 +26,7 @@ This repository started so that Iranian students have the same access to academi
 
 ### Option 1: JSON (recommended for new integrations)
 
-Fetch [`universities.json`](./universities.json) directly from the GitHub raw URL. Each entry:
+Fetch the per-country files from [`universities/`](./universities/) directly from the GitHub raw URL (e.g. `universities/IR.json` for Iran, `universities/US.json` for the US). Each entry:
 
 ```json
 {
@@ -41,14 +40,18 @@ Fetch [`universities.json`](./universities.json) directly from the GitHub raw UR
 }
 ```
 
-To check if an email is from a university in the database:
+To check if an email is from a university in the database, fetch whichever country files you need or all of them:
 
 ```python
 import json, urllib.request
 
-url = "https://raw.githubusercontent.com/matinzd/iran-universities-database/main/universities.json"
-data = json.loads(urllib.request.urlopen(url).read())
-all_domains = {d for u in data["universities"] for d in u["domains"]}
+def load_country(code):
+    url = f"https://raw.githubusercontent.com/matinzd/iran-universities-database/main/universities/{code}.json"
+    return json.loads(urllib.request.urlopen(url).read())["universities"]
+
+# Or load all countries by fetching the directory listing via the GitHub API
+universities = load_country("IR") + load_country("US")  # etc.
+all_domains = {d for u in universities for d in u["domains"]}
 
 def is_university_email(email):
     domain = email.split("@")[-1].lower()
@@ -126,7 +129,7 @@ To add a missing university or correct existing data, edit the relevant file in 
 - Each domain can only appear once across the entire database
 - Add entries in alphabetical order by `name` within the country file
 
-The `domains/` directory, `domains.txt`, and root `universities.json` are auto-generated. Do not edit them directly.
+The `domains/` directory and `domains.txt` are auto-generated. Do not edit them directly.
 
 ## License
 
