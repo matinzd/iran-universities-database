@@ -994,6 +994,17 @@
       "website": "https://pnu.ac.ir"
     },
     {
+      "name": "Shiraz Payame Noor University",
+      "name_local": "دانشگاه پیام نور مرکز شیراز",
+      "country": "IR",
+      "domains": [
+        "shiraz.fars.pnu.ac.ir"
+      ],
+      "type": "distance",
+      "city": "Shiraz",
+      "website": "https://shiraz.fars.pnu.ac.ir"
+    },
+    {
       "name": "Persian Gulf University",
       "name_local": "دانشگاه خلیج فارس",
       "country": "IR",

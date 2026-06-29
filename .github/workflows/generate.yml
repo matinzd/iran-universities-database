@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "universities.json"
+      - "universities/*.json"
 
 permissions:
   contents: write
@@ -29,17 +29,17 @@ jobs:
         with:
           python-version: "3.14"
 
-      - name: Generate domains/ and domains.txt
+      - name: Generate universities.json, domains/ and domains.txt
         run: python3 scripts/generate.py
 
       - name: Commit generated files
         run: |
           git config user.name "${{ steps.app-token.outputs.app-slug }}[bot]"
           git config user.email "${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com"
-          git add domains/ domains.txt
+          git add universities.json domains/ domains.txt
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: regenerate domains from universities.json [skip ci]"
+            git commit -m "chore: regenerate derived files from universities/*.json [skip ci]"
             git push
           fi

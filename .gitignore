@@ -1,0 +1,5 @@
+universities.json
+domains/
+domains.txt
+__pycache__/
+*.pyc
