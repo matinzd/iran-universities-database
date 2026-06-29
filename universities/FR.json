@@ -1,0 +1,48 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "Sorbonne University",
+      "name_local": "Sorbonne Université",
+      "country": "FR",
+      "domains": [
+        "sorbonne-universite.fr"
+      ],
+      "type": "public",
+      "city": "Paris",
+      "website": "https://www.sorbonne-universite.fr"
+    },
+    {
+      "name": "École Polytechnique",
+      "country": "FR",
+      "domains": [
+        "polytechnique.edu"
+      ],
+      "type": "public",
+      "city": "Palaiseau",
+      "website": "https://www.polytechnique.edu"
+    },
+    {
+      "name": "Paris Sciences et Lettres University",
+      "name_local": "Université PSL",
+      "country": "FR",
+      "domains": [
+        "psl.eu"
+      ],
+      "type": "public",
+      "city": "Paris",
+      "website": "https://www.psl.eu"
+    },
+    {
+      "name": "University of Paris-Saclay",
+      "name_local": "Université Paris-Saclay",
+      "country": "FR",
+      "domains": [
+        "universite-paris-saclay.fr"
+      ],
+      "type": "public",
+      "city": "Saint-Aubin",
+      "website": "https://www.universite-paris-saclay.fr"
+    }
+  ]
+}

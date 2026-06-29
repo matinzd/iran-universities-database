@@ -1,0 +1,49 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "ETH Zurich",
+      "name_local": "Eidgenössische Technische Hochschule Zürich",
+      "country": "CH",
+      "domains": [
+        "ethz.ch"
+      ],
+      "type": "public",
+      "city": "Zurich",
+      "website": "https://ethz.ch"
+    },
+    {
+      "name": "EPFL",
+      "name_local": "École Polytechnique Fédérale de Lausanne",
+      "country": "CH",
+      "domains": [
+        "epfl.ch"
+      ],
+      "type": "public",
+      "city": "Lausanne",
+      "website": "https://www.epfl.ch"
+    },
+    {
+      "name": "University of Zurich",
+      "name_local": "Universität Zürich",
+      "country": "CH",
+      "domains": [
+        "uzh.ch"
+      ],
+      "type": "public",
+      "city": "Zurich",
+      "website": "https://www.uzh.ch"
+    },
+    {
+      "name": "University of Geneva",
+      "name_local": "Université de Genève",
+      "country": "CH",
+      "domains": [
+        "unige.ch"
+      ],
+      "type": "public",
+      "city": "Geneva",
+      "website": "https://www.unige.ch"
+    }
+  ]
+}

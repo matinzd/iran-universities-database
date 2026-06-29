@@ -1,0 +1,60 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "Seoul National University",
+      "name_local": "서울대학교",
+      "country": "KR",
+      "domains": [
+        "snu.ac.kr"
+      ],
+      "type": "public",
+      "city": "Seoul",
+      "website": "https://www.snu.ac.kr"
+    },
+    {
+      "name": "Korea Advanced Institute of Science and Technology",
+      "name_local": "한국과학기술원",
+      "country": "KR",
+      "domains": [
+        "kaist.ac.kr"
+      ],
+      "type": "public",
+      "city": "Daejeon",
+      "website": "https://www.kaist.ac.kr"
+    },
+    {
+      "name": "Yonsei University",
+      "name_local": "연세대학교",
+      "country": "KR",
+      "domains": [
+        "yonsei.ac.kr"
+      ],
+      "type": "private",
+      "city": "Seoul",
+      "website": "https://www.yonsei.ac.kr"
+    },
+    {
+      "name": "Korea University",
+      "name_local": "고려대학교",
+      "country": "KR",
+      "domains": [
+        "korea.ac.kr"
+      ],
+      "type": "private",
+      "city": "Seoul",
+      "website": "https://www.korea.ac.kr"
+    },
+    {
+      "name": "Pohang University of Science and Technology",
+      "name_local": "포항공과대학교",
+      "country": "KR",
+      "domains": [
+        "postech.ac.kr"
+      ],
+      "type": "private",
+      "city": "Pohang",
+      "website": "https://www.postech.ac.kr"
+    }
+  ]
+}

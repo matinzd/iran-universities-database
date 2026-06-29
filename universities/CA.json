@@ -1,0 +1,55 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "University of Toronto",
+      "country": "CA",
+      "domains": [
+        "utoronto.ca"
+      ],
+      "type": "public",
+      "city": "Toronto",
+      "website": "https://www.utoronto.ca"
+    },
+    {
+      "name": "McGill University",
+      "country": "CA",
+      "domains": [
+        "mcgill.ca"
+      ],
+      "type": "public",
+      "city": "Montreal",
+      "website": "https://www.mcgill.ca"
+    },
+    {
+      "name": "University of British Columbia",
+      "country": "CA",
+      "domains": [
+        "ubc.ca"
+      ],
+      "type": "public",
+      "city": "Vancouver",
+      "website": "https://www.ubc.ca"
+    },
+    {
+      "name": "University of Alberta",
+      "country": "CA",
+      "domains": [
+        "ualberta.ca"
+      ],
+      "type": "public",
+      "city": "Edmonton",
+      "website": "https://www.ualberta.ca"
+    },
+    {
+      "name": "University of Waterloo",
+      "country": "CA",
+      "domains": [
+        "uwaterloo.ca"
+      ],
+      "type": "public",
+      "city": "Waterloo",
+      "website": "https://uwaterloo.ca"
+    }
+  ]
+}

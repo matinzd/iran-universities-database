@@ -1,0 +1,55 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "Indian Institute of Science",
+      "country": "IN",
+      "domains": [
+        "iisc.ac.in"
+      ],
+      "type": "public",
+      "city": "Bangalore",
+      "website": "https://www.iisc.ac.in"
+    },
+    {
+      "name": "Indian Institute of Technology Bombay",
+      "country": "IN",
+      "domains": [
+        "iitb.ac.in"
+      ],
+      "type": "public",
+      "city": "Mumbai",
+      "website": "https://www.iitb.ac.in"
+    },
+    {
+      "name": "Indian Institute of Technology Delhi",
+      "country": "IN",
+      "domains": [
+        "iitd.ac.in"
+      ],
+      "type": "public",
+      "city": "New Delhi",
+      "website": "https://www.iitd.ac.in"
+    },
+    {
+      "name": "University of Delhi",
+      "country": "IN",
+      "domains": [
+        "du.ac.in"
+      ],
+      "type": "public",
+      "city": "New Delhi",
+      "website": "https://www.du.ac.in"
+    },
+    {
+      "name": "Jawaharlal Nehru University",
+      "country": "IN",
+      "domains": [
+        "jnu.ac.in"
+      ],
+      "type": "public",
+      "city": "New Delhi",
+      "website": "https://www.jnu.ac.in"
+    }
+  ]
+}

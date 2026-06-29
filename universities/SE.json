@@ -1,0 +1,49 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "KTH Royal Institute of Technology",
+      "name_local": "Kungliga Tekniska högskolan",
+      "country": "SE",
+      "domains": [
+        "kth.se"
+      ],
+      "type": "public",
+      "city": "Stockholm",
+      "website": "https://www.kth.se"
+    },
+    {
+      "name": "Lund University",
+      "name_local": "Lunds universitet",
+      "country": "SE",
+      "domains": [
+        "lu.se"
+      ],
+      "type": "public",
+      "city": "Lund",
+      "website": "https://www.lu.se"
+    },
+    {
+      "name": "Uppsala University",
+      "name_local": "Uppsala universitet",
+      "country": "SE",
+      "domains": [
+        "uu.se"
+      ],
+      "type": "public",
+      "city": "Uppsala",
+      "website": "https://www.uu.se"
+    },
+    {
+      "name": "Stockholm University",
+      "name_local": "Stockholms universitet",
+      "country": "SE",
+      "domains": [
+        "su.se"
+      ],
+      "type": "public",
+      "city": "Stockholm",
+      "website": "https://www.su.se"
+    }
+  ]
+}

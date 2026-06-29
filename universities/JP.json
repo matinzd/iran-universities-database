@@ -1,0 +1,60 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "University of Tokyo",
+      "name_local": "東京大学",
+      "country": "JP",
+      "domains": [
+        "u-tokyo.ac.jp"
+      ],
+      "type": "public",
+      "city": "Tokyo",
+      "website": "https://www.u-tokyo.ac.jp"
+    },
+    {
+      "name": "Kyoto University",
+      "name_local": "京都大学",
+      "country": "JP",
+      "domains": [
+        "kyoto-u.ac.jp"
+      ],
+      "type": "public",
+      "city": "Kyoto",
+      "website": "https://www.kyoto-u.ac.jp"
+    },
+    {
+      "name": "Osaka University",
+      "name_local": "大阪大学",
+      "country": "JP",
+      "domains": [
+        "osaka-u.ac.jp"
+      ],
+      "type": "public",
+      "city": "Suita",
+      "website": "https://www.osaka-u.ac.jp"
+    },
+    {
+      "name": "Tokyo Institute of Technology",
+      "name_local": "東京工業大学",
+      "country": "JP",
+      "domains": [
+        "titech.ac.jp"
+      ],
+      "type": "public",
+      "city": "Tokyo",
+      "website": "https://www.titech.ac.jp"
+    },
+    {
+      "name": "Tohoku University",
+      "name_local": "東北大学",
+      "country": "JP",
+      "domains": [
+        "tohoku.ac.jp"
+      ],
+      "type": "public",
+      "city": "Sendai",
+      "website": "https://www.tohoku.ac.jp"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "Technical University of Munich",
+      "name_local": "Technische Universität München",
+      "country": "DE",
+      "domains": [
+        "tum.de"
+      ],
+      "type": "public",
+      "city": "Munich",
+      "website": "https://www.tum.de"
+    },
+    {
+      "name": "Heidelberg University",
+      "name_local": "Ruprecht-Karls-Universität Heidelberg",
+      "country": "DE",
+      "domains": [
+        "uni-heidelberg.de"
+      ],
+      "type": "public",
+      "city": "Heidelberg",
+      "website": "https://www.uni-heidelberg.de"
+    },
+    {
+      "name": "Humboldt University of Berlin",
+      "name_local": "Humboldt-Universität zu Berlin",
+      "country": "DE",
+      "domains": [
+        "hu-berlin.de"
+      ],
+      "type": "public",
+      "city": "Berlin",
+      "website": "https://www.hu-berlin.de"
+    },
+    {
+      "name": "Ludwig Maximilian University of Munich",
+      "name_local": "Ludwig-Maximilians-Universität München",
+      "country": "DE",
+      "domains": [
+        "lmu.de"
+      ],
+      "type": "public",
+      "city": "Munich",
+      "website": "https://www.lmu.de"
+    },
+    {
+      "name": "RWTH Aachen University",
+      "name_local": "Rheinisch-Westfälische Technische Hochschule Aachen",
+      "country": "DE",
+      "domains": [
+        "rwth-aachen.de"
+      ],
+      "type": "public",
+      "city": "Aachen",
+      "website": "https://www.rwth-aachen.de"
+    }
+  ]
+}

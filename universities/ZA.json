@@ -1,0 +1,46 @@
+{
+  "$schema": "../schema.json",
+  "universities": [
+    {
+      "name": "University of Cape Town",
+      "country": "ZA",
+      "domains": [
+        "uct.ac.za"
+      ],
+      "type": "public",
+      "city": "Cape Town",
+      "website": "https://www.uct.ac.za"
+    },
+    {
+      "name": "University of the Witwatersrand",
+      "country": "ZA",
+      "domains": [
+        "wits.ac.za"
+      ],
+      "type": "public",
+      "city": "Johannesburg",
+      "website": "https://www.wits.ac.za"
+    },
+    {
+      "name": "Stellenbosch University",
+      "name_local": "Universiteit Stellenbosch",
+      "country": "ZA",
+      "domains": [
+        "sun.ac.za"
+      ],
+      "type": "public",
+      "city": "Stellenbosch",
+      "website": "https://www.sun.ac.za"
+    },
+    {
+      "name": "University of Pretoria",
+      "country": "ZA",
+      "domains": [
+        "up.ac.za"
+      ],
+      "type": "public",
+      "city": "Pretoria",
+      "website": "https://www.up.ac.za"
+    }
+  ]
+}
