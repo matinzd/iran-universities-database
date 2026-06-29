@@ -3,6 +3,7 @@
 
 import argparse
 import dns.resolver
+import glob
 import json
 import sys
 
@@ -40,7 +41,8 @@ def check_domain(domain):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", default="universities.json")
+    parser.add_argument("--universities-dir", default="universities",
+                        help="Directory containing per-country JSON files")
     parser.add_argument(
         "--changed-only",
         metavar="DOMAIN",
@@ -49,8 +51,10 @@ def main():
     )
     args = parser.parse_args()
 
-    with open(args.input, encoding="utf-8") as f:
-        universities = json.load(f)["universities"]
+    universities = []
+    for path in sorted(glob.glob(f"{args.universities_dir}/*.json")):
+        with open(path, encoding="utf-8") as f:
+            universities.extend(json.load(f)["universities"])
 
     if args.changed_only:
         domains_to_check = set(args.changed_only)
